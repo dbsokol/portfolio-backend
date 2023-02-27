@@ -1,8 +1,8 @@
 from fastapi import APIRouter, status, Depends, HTTPException
 
-from ..models import skills as models
-from ..schemas import skills as schemas
-from ..dependencies.databases import get_db
+from app.models import skills as models
+from app.schemas import skills as schemas
+from app.dependencies.databases import get_db
 
 
 router = APIRouter()

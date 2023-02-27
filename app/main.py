@@ -1,8 +1,7 @@
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from .routers import skills
 from .routers import projects
-from starlette.responses import FileResponse
-from fastapi.staticfiles import StaticFiles
 
 
 app = FastAPI()
